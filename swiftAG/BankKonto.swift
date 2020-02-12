@@ -24,7 +24,7 @@ class BankKonto{
     private(set) var kontoNummer: Int = 0
     
     // der Eigentümer Name des Kontos
-    var besitzer: String
+    var besitzer: Person
     
     // der aktuelle Kontostand
     private(set) var kontoStand: Float = 0.0
@@ -34,7 +34,7 @@ class BankKonto{
     
     // Initialisierung
     
-    init(besitzer: String){
+    init(besitzer: Person){
         kontoNummer = BankKonto.seed    // Kontonummer wird automatisch erzeugt
         BankKonto.seed += 1             // danach +1, damit neues Konto anders lautet
         self.besitzer = besitzer        // Besitzer zuweisen
@@ -42,7 +42,7 @@ class BankKonto{
     }
     
     // direkt einen Startbetrag einzahlen beim Anlegen des Objektes
-    init(besitzer: String, einzahlung: Float){
+    init(besitzer: Person, einzahlung: Float){
         kontoNummer = BankKonto.seed    // Kontonummer wird automatisch erzeugt
         BankKonto.seed += 1             // danach +1, damit neues Konto anders lautet
         self.besitzer = besitzer        // Besitzer zuweisen

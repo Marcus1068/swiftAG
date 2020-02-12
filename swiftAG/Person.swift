@@ -8,6 +8,14 @@
 
 import Foundation
 
+// eine Aufzählung definieren für das Geschlecht
+enum Geschlecht{
+    case männlich
+    case weiblich
+    case drittes
+}
+
+
 // eine Person als Klasse modellieren
 class Person{
     
@@ -16,7 +24,7 @@ class Person{
     var vorName: String
     var geburtsDatum: Date
     var geburtsOrt: String
-    var geschlecht: String
+    var geschlecht: Geschlecht
     
     // Alter wird berechnet, ist auch nur lesbar, nicht veränderbar
     public var alterInJahren: Int{
@@ -30,7 +38,7 @@ class Person{
     }
     
     // initilisieren
-    init(nachName: String, vorName: String, geburtsDatum: Date, geburtsOrt: String, geschlecht: String){
+    init(nachName: String, vorName: String, geburtsDatum: Date, geburtsOrt: String, geschlecht: Geschlecht){
         self.nachName = nachName
         self.vorName = vorName
         self.geburtsDatum = geburtsDatum
@@ -41,6 +49,7 @@ class Person{
     
 }
 
+// Date erweitern, damit wir die Anzahl der Jahre (oder Tage, Monate) zwischen zwei Daten berechnen können
 extension Date {
 
     static func -(recent: Date, previous: Date) -> (year: Int?, month: Int?, day: Int?, hour: Int?, minute: Int?, second: Int?) {

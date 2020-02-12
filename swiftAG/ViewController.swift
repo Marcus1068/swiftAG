@@ -20,23 +20,46 @@ class ViewController: UIViewController {
     }
 
     func testePerson(){
-        let dateString = "02/10/1968"
-        let dateFormatter = DateFormatter()
+        var dateString = "02/10/1968"
+        var dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yyyy"
-        let dateFromString = dateFormatter.date(from: dateString)!
+        var dateFromString = dateFormatter.date(from: dateString)!
         
-        let marcus = Person(nachName: "Deuß", vorName: "Marcus", geburtsDatum: dateFromString, geburtsOrt: "Bremen", geschlecht: "Männlich")
+        let marcus = Person(nachName: "Deuß", vorName: "Marcus", geburtsDatum: dateFromString, geburtsOrt: "Bremen", geschlecht: Geschlecht.männlich)
         
         print("Person: \(marcus.vorName) ist \(marcus.alterInJahren) Jahre alt")
+        
+        dateString = "10/11/1976"
+        dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        dateFromString = dateFormatter.date(from: dateString)!
+        
+        let sandra = Person(nachName: "Deuß", vorName: "Sandra", geburtsDatum: dateFromString, geburtsOrt: "Düsseldorf", geschlecht: Geschlecht.weiblich)
+        
+        print("Person: \(sandra.vorName) ist \(sandra.alterInJahren) Jahre alt")
         
     }
 
     func testeBankkonto(){
         // Testen der Konto Klasse
+        
+        var dateString = "02/10/1968"
+        var dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        var dateFromString = dateFormatter.date(from: dateString)!
+        
+        let marcus = Person(nachName: "Deuß", vorName: "Marcus", geburtsDatum: dateFromString, geburtsOrt: "Bremen", geschlecht: Geschlecht.männlich)
 
-        let konto1 = BankKonto(besitzer: "Marcus")
+        let konto1 = BankKonto(besitzer: marcus)
 
-        let konto2 = BankKonto(besitzer: "Sandra")
+        dateString = "10/11/1976"
+        dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        dateFromString = dateFormatter.date(from: dateString)!
+        
+        let sandra = Person(nachName: "Deuß", vorName: "Sandra", geburtsDatum: dateFromString, geburtsOrt: "Düsseldorf", geschlecht: Geschlecht.weiblich)
+
+        let konto2 = BankKonto(besitzer: sandra)
 
         print(konto1.besitzer)
         print(konto1.kontoNummer)
