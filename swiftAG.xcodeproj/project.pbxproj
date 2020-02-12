@@ -15,6 +15,7 @@
 		2CC7C5F623F4193B00849864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7C5F523F4193B00849864 /* Assets.xcassets */; };
 		2CC7C5F923F4193B00849864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7C5F723F4193B00849864 /* LaunchScreen.storyboard */; };
 		2CC7C60123F4196900849864 /* BankKonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60023F4196900849864 /* BankKonto.swift */; };
+		2CC7C60323F4245800849864 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60223F4245800849864 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2CC7C5F823F4193B00849864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC7C5FA23F4193B00849864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC7C60023F4196900849864 /* BankKonto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankKonto.swift; sourceTree = "<group>"; };
+		2CC7C60223F4245800849864 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		2CC7C5E823F4193900849864 /* swiftAG */ = {
 			isa = PBXGroup;
 			children = (
+				2CC7C60223F4245800849864 /* Person.swift */,
 				2CC7C5E923F4193900849864 /* AppDelegate.swift */,
 				2CC7C5EB23F4193900849864 /* SceneDelegate.swift */,
 				2CC7C5ED23F4193900849864 /* ViewController.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC7C60323F4245800849864 /* Person.swift in Sources */,
 				2CC7C5EE23F4193900849864 /* ViewController.swift in Sources */,
 				2CC7C5F423F4193900849864 /* swiftAG.xcdatamodeld in Sources */,
 				2CC7C5EA23F4193900849864 /* AppDelegate.swift in Sources */,

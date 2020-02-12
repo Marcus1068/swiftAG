@@ -15,8 +15,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         testeBankkonto()
+        
+        testePerson()
     }
 
+    func testePerson(){
+        let dateString = "02/10/1968"
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        let dateFromString = dateFormatter.date(from: dateString)!
+        
+        let marcus = Person(nachName: "Deuß", vorName: "Marcus", geburtsDatum: dateFromString, geburtsOrt: "Bremen", geschlecht: "Männlich")
+        
+        print("Person: \(marcus.vorName) ist \(marcus.alterInJahren) Jahre alt")
+        
+    }
 
     func testeBankkonto(){
         // Testen der Konto Klasse
