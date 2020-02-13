@@ -11,7 +11,7 @@ import Foundation
 // umrechnen von Dezimal nach Hexadezimal und Binär
 // gespeichert wird nur die Dezimalzahl, die anderen Zahlen werden berechnet
 
-class Zahlen{
+class Zahlen: CustomStringConvertible{
 
     // Eigenschaften
     var dezimal: Int
@@ -36,5 +36,9 @@ class Zahlen{
     
     init(binär: String){
         self.dezimal = Int(binär, radix: 2)!
+    }
+    
+    var description: String{
+        return "Dezimal: \(self.dezimal), Hexadezimal: \(self.hexadezimal), Binär: \(self.binär)"
     }
 }

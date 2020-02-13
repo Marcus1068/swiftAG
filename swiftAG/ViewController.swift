@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         print(zahl4.hexadezimal)
         print(zahl4.binär)
         
+        let z = Zahlen(dezimal: 16)
+        print(z)
+        
     }
     
     func testeTemperatur(){
@@ -51,6 +54,8 @@ class ViewController: UIViewController {
         let t2 = Temperatur(fahrenheit: 100.0)
         print("Celsius = \(t2.celsius)")
         print("Kelvin = \(t2.kelvin)")
+        
+        print(t)
     }
     
     func testeRechteck(){

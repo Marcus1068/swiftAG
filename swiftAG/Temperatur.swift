@@ -9,7 +9,7 @@
 import Foundation
 
 // die Klasse rechnet von Kelvin nach Fahrenheit und Celsius, intern wird alles in Kelvin gespeichert
-class Temperatur{
+class Temperatur: CustomStringConvertible{
     
     // Eigenschaften
     var kelvin: Double
@@ -38,5 +38,8 @@ class Temperatur{
         self.kelvin = (fahrenheit - 32.0) / 1.8 + 273.15
     }
     
+    var description: String{
+        return "Celsius: \(self.celsius), Fahrenheit: \(self.fahrenheit), Kelvin: \(self.kelvin)"
+    }
     
 }
