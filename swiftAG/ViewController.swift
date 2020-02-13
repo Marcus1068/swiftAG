@@ -21,8 +21,28 @@ class ViewController: UIViewController {
         testeRechteck()
         
         testeTemperatur()
+        
+        testeZahlen()
     }
 
+    func testeZahlen(){
+        let zahl1 = Zahlen(binär: "0101")
+        
+        print(zahl1.dezimal)
+        
+        let zahl2 = Zahlen(dezimal: 12)
+        print(zahl2.dezimal)
+        
+        let zahl3 = Zahlen(hexadezimal: "FF")
+        print(zahl3.dezimal)
+        print(zahl3.binär)
+        
+        let zahl4 = Zahlen(dezimal: 255)
+        print(zahl4.hexadezimal)
+        print(zahl4.binär)
+        
+    }
+    
     func testeTemperatur(){
         let t = Temperatur(celsius: 0.0)
         print("Fahrenheit = \(t.fahrenheit)")

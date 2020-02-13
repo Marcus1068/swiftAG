@@ -18,6 +18,7 @@
 		2CC7C60323F4245800849864 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60223F4245800849864 /* Person.swift */; };
 		2CC7C60623F45F3F00849864 /* Rechteck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60523F45F3F00849864 /* Rechteck.swift */; };
 		2CC7C60823F55F7100849864 /* Temperatur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60723F55F7100849864 /* Temperatur.swift */; };
+		2CC7C60A23F5728A00849864 /* Zahlen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60923F5728A00849864 /* Zahlen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2CC7C60223F4245800849864 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2CC7C60523F45F3F00849864 /* Rechteck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechteck.swift; sourceTree = "<group>"; };
 		2CC7C60723F55F7100849864 /* Temperatur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperatur.swift; sourceTree = "<group>"; };
+		2CC7C60923F5728A00849864 /* Zahlen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zahlen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				2CC7C5FA23F4193B00849864 /* Info.plist */,
 				2CC7C5F223F4193900849864 /* swiftAG.xcdatamodeld */,
 				2CC7C60723F55F7100849864 /* Temperatur.swift */,
+				2CC7C60923F5728A00849864 /* Zahlen.swift */,
 			);
 			path = swiftAG;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				2CC7C5EE23F4193900849864 /* ViewController.swift in Sources */,
 				2CC7C5F423F4193900849864 /* swiftAG.xcdatamodeld in Sources */,
 				2CC7C60623F45F3F00849864 /* Rechteck.swift in Sources */,
+				2CC7C60A23F5728A00849864 /* Zahlen.swift in Sources */,
 				2CC7C60823F55F7100849864 /* Temperatur.swift in Sources */,
 				2CC7C5EA23F4193900849864 /* AppDelegate.swift in Sources */,
 				2CC7C5EC23F4193900849864 /* SceneDelegate.swift in Sources */,
