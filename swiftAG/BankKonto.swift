@@ -27,7 +27,7 @@ class BankKonto{
     var besitzer: Person
     
     // der aktuelle Kontostand
-    private(set) var kontoStand: Float = 0.0
+    private(set) var kontoStand: Double = 0.0
     
     // initiale Bankkonto Nummer
     private static var seed = 1000
@@ -42,7 +42,7 @@ class BankKonto{
     }
     
     // direkt einen Startbetrag einzahlen beim Anlegen des Objektes
-    init(besitzer: Person, einzahlung: Float){
+    init(besitzer: Person, einzahlung: Double){
         kontoNummer = BankKonto.seed    // Kontonummer wird automatisch erzeugt
         BankKonto.seed += 1             // danach +1, damit neues Konto anders lautet
         self.besitzer = besitzer        // Besitzer zuweisen
@@ -51,7 +51,7 @@ class BankKonto{
     
     // Methoden
     
-    func macheAbbuchung(betrag: Float){
+    func macheAbbuchung(betrag: Double){
         if(kontoStand - betrag >= 0.0){
             kontoStand -= betrag
         }
@@ -60,7 +60,7 @@ class BankKonto{
         }
     }
     
-    func macheEinzahlung(betrag: Float){
+    func macheEinzahlung(betrag: Double){
         kontoStand += betrag
     }
     
@@ -69,7 +69,7 @@ class BankKonto{
         print("Der Kontostand von \(besitzer) lautet: \(String(kontoStand))€")
     }
     
-    func überweisen(betrag: Float, konto: BankKonto){
+    func überweisen(betrag: Double, konto: BankKonto){
         // Geld vom eigenen Konto abbuchen
         macheAbbuchung(betrag: betrag)
         // und auf das andere Konto überweisen

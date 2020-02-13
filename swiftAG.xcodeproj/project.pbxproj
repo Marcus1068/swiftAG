@@ -16,6 +16,8 @@
 		2CC7C5F923F4193B00849864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC7C5F723F4193B00849864 /* LaunchScreen.storyboard */; };
 		2CC7C60123F4196900849864 /* BankKonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60023F4196900849864 /* BankKonto.swift */; };
 		2CC7C60323F4245800849864 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60223F4245800849864 /* Person.swift */; };
+		2CC7C60623F45F3F00849864 /* Rechteck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60523F45F3F00849864 /* Rechteck.swift */; };
+		2CC7C60823F55F7100849864 /* Temperatur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C60723F55F7100849864 /* Temperatur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2CC7C5FA23F4193B00849864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC7C60023F4196900849864 /* BankKonto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankKonto.swift; sourceTree = "<group>"; };
 		2CC7C60223F4245800849864 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2CC7C60523F45F3F00849864 /* Rechteck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechteck.swift; sourceTree = "<group>"; };
+		2CC7C60723F55F7100849864 /* Temperatur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperatur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				2CC7C5E923F4193900849864 /* AppDelegate.swift */,
 				2CC7C60023F4196900849864 /* BankKonto.swift */,
 				2CC7C60223F4245800849864 /* Person.swift */,
+				2CC7C60523F45F3F00849864 /* Rechteck.swift */,
 				2CC7C5EB23F4193900849864 /* SceneDelegate.swift */,
 				2CC7C5ED23F4193900849864 /* ViewController.swift */,
 				2CC7C5EF23F4193900849864 /* Main.storyboard */,
@@ -72,6 +77,7 @@
 				2CC7C5F723F4193B00849864 /* LaunchScreen.storyboard */,
 				2CC7C5FA23F4193B00849864 /* Info.plist */,
 				2CC7C5F223F4193900849864 /* swiftAG.xcdatamodeld */,
+				2CC7C60723F55F7100849864 /* Temperatur.swift */,
 			);
 			path = swiftAG;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 				2CC7C60323F4245800849864 /* Person.swift in Sources */,
 				2CC7C5EE23F4193900849864 /* ViewController.swift in Sources */,
 				2CC7C5F423F4193900849864 /* swiftAG.xcdatamodeld in Sources */,
+				2CC7C60623F45F3F00849864 /* Rechteck.swift in Sources */,
+				2CC7C60823F55F7100849864 /* Temperatur.swift in Sources */,
 				2CC7C5EA23F4193900849864 /* AppDelegate.swift in Sources */,
 				2CC7C5EC23F4193900849864 /* SceneDelegate.swift in Sources */,
 				2CC7C60123F4196900849864 /* BankKonto.swift in Sources */,
