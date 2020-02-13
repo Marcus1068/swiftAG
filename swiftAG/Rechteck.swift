@@ -15,9 +15,10 @@ class Rechteck{
     
     var y : Double
     
+    // prüfen, ob x und y größer oder gleich 0.0 sind, vermeiden von negativen Zahlen
     init(x: Double, y: Double) {
-        self.x = x
-        self.y = y
+        self.x = x >= 0.0 ? x : 0.0
+        self.y = y >= 0.0 ? y : 0.0
     }
     
     func fläche() -> Double{
