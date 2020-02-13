@@ -72,6 +72,8 @@
 				2CC7C60023F4196900849864 /* BankKonto.swift */,
 				2CC7C60223F4245800849864 /* Person.swift */,
 				2CC7C60523F45F3F00849864 /* Rechteck.swift */,
+				2CC7C60723F55F7100849864 /* Temperatur.swift */,
+				2CC7C60923F5728A00849864 /* Zahlen.swift */,
 				2CC7C5EB23F4193900849864 /* SceneDelegate.swift */,
 				2CC7C5ED23F4193900849864 /* ViewController.swift */,
 				2CC7C5EF23F4193900849864 /* Main.storyboard */,
@@ -79,8 +81,6 @@
 				2CC7C5F723F4193B00849864 /* LaunchScreen.storyboard */,
 				2CC7C5FA23F4193B00849864 /* Info.plist */,
 				2CC7C5F223F4193900849864 /* swiftAG.xcdatamodeld */,
-				2CC7C60723F55F7100849864 /* Temperatur.swift */,
-				2CC7C60923F5728A00849864 /* Zahlen.swift */,
 			);
 			path = swiftAG;
 			sourceTree = "<group>";

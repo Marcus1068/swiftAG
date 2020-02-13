@@ -17,7 +17,7 @@ enum Geschlecht{
 
 
 // eine Person als Klasse modellieren
-class Person{
+class Person: CustomStringConvertible{
     
     // Eigenschaften
     var nachName: String
@@ -46,6 +46,9 @@ class Person{
         self.geschlecht = geschlecht
     }
     
+    var description: String{
+        return "Name: \(self.nachName), Vorname: \(self.vorName), Geburtsort: \(self.geburtsOrt), Geburtsdatum: \(self.geburtsDatum), Geschlecht: \(self.geschlecht)"
+    }
     
 }
 

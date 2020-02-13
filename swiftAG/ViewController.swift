@@ -76,6 +76,8 @@ class ViewController: UIViewController {
         
         print("Person: \(sandra.vorName) ist \(sandra.alterInJahren) Jahre alt")
         
+        print(marcus)
+        
     }
 
     func testeBankkonto(){
@@ -107,6 +109,8 @@ class ViewController: UIViewController {
         konto1.überweisen(betrag: 45.0, konto: konto2)
         print(konto1.kontoStand)
         print(konto2.kontoStand)
+        
+        print(konto1)
     }
     
     func dateFromString(date: String) -> Date{

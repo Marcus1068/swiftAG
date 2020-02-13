@@ -17,7 +17,7 @@ import Foundation
 // 4. Geld abheben vom Konto
 // 5. Geld vom eigenen Konto auf ein anderes Konto überweisen
 
-class BankKonto{
+class BankKonto: CustomStringConvertible{
     // Eigenschaften
     
     // die neue Kontonummer, muss eindeutig sein, zwei Personen dürfen nie die selbe Nummer haben
@@ -74,6 +74,10 @@ class BankKonto{
         macheAbbuchung(betrag: betrag)
         // und auf das andere Konto überweisen
         konto.macheEinzahlung(betrag: betrag)
+    }
+    
+    var description: String{
+        return "Kontonummer: \(self.kontoNummer), Besitzer: \(self.besitzer.nachName), \(self.besitzer.vorName), Kontostand: \(self.kontoStand)"
     }
 }
 
