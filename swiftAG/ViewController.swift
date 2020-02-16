@@ -23,8 +23,29 @@ class ViewController: UIViewController {
         testeTemperatur()
         
         testeZahlen()
+        
+        testeProzente()
     }
 
+    func testeProzente(){
+        
+        print("Prozente Tests")
+        
+        print("Frage: Wie viel Prozent machen 6 Schüler von 24 Schülern aus?")
+        let a = Prozente(prozentwert: 6, grundwert: 24) // Wie viel Prozent machen 6 Schüler von 24 Schülern aus?“
+        
+        print("Gesucht wird der Prozentsatz: \(a.prozentsatz)%")
+        
+        print("Frage: Wenn 6 Schüler 25% der Klasse sind, wie viele Schüler hat dann die ganze Klasse?")
+        let b = Prozente(prozentwert: 6, prozentsatz: 25) // „Wenn 6 Schüler 25% der Klasse sind, wie viele Schüler hat dann die ganze Klasse?“
+        
+        print("Gesucht wird der Grundwert, also die Anzahl der Schüler insgesamt: \(b.grundwert)")
+        
+        print("Frage: Wie viel sind 3% von 50 Euro?")
+        let c = Prozente(prozentsatz: 3, grundwert: 50)
+        print("Gesucht wird der Prozentwert: \(c.prozentwert)")
+    }
+    
     func testeZahlen(){
         let zahl1 = Zahlen(binär: "0101")
         

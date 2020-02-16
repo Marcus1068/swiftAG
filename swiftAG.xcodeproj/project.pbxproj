@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA0442123F95D3B0097FE2F /* Prozente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0442023F95D3B0097FE2F /* Prozente.swift */; };
 		2CC7C5EA23F4193900849864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C5E923F4193900849864 /* AppDelegate.swift */; };
 		2CC7C5EC23F4193900849864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C5EB23F4193900849864 /* SceneDelegate.swift */; };
 		2CC7C5EE23F4193900849864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7C5ED23F4193900849864 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CA0442023F95D3B0097FE2F /* Prozente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prozente.swift; sourceTree = "<group>"; };
 		2CC7C5E623F4193900849864 /* swiftAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC7C5E923F4193900849864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC7C5EB23F4193900849864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				2CC7C60523F45F3F00849864 /* Rechteck.swift */,
 				2CC7C60723F55F7100849864 /* Temperatur.swift */,
 				2CC7C60923F5728A00849864 /* Zahlen.swift */,
+				2CA0442023F95D3B0097FE2F /* Prozente.swift */,
 				2CC7C5EB23F4193900849864 /* SceneDelegate.swift */,
 				2CC7C5ED23F4193900849864 /* ViewController.swift */,
 				2CC7C5EF23F4193900849864 /* Main.storyboard */,
@@ -162,6 +165,7 @@
 				2CC7C60623F45F3F00849864 /* Rechteck.swift in Sources */,
 				2CC7C60A23F5728A00849864 /* Zahlen.swift in Sources */,
 				2CC7C60823F55F7100849864 /* Temperatur.swift in Sources */,
+				2CA0442123F95D3B0097FE2F /* Prozente.swift in Sources */,
 				2CC7C5EA23F4193900849864 /* AppDelegate.swift in Sources */,
 				2CC7C5EC23F4193900849864 /* SceneDelegate.swift in Sources */,
 				2CC7C60123F4196900849864 /* BankKonto.swift in Sources */,
